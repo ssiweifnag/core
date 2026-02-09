@@ -1,21 +1,47 @@
 # Contributing to Home Assistant
 
-Everybody is invited and welcome to contribute to Home Assistant. There is a lot to do...if you are not a developer perhaps you would like to help with the documentation on [home-assistant.io](https://home-assistant.io/)? If you are a developer and have devices in your home which aren't working with Home Assistant yet, why not spend a couple of hours and help to integrate them?
+Everyone is invited and welcome to contribute to Home Assistant! Whether you're a developer, documenter, or just want to help out, there's a place for you here.
 
-The process is straight-forward.
+## Quick Start for Developers
 
- - Read [How to get faster PR reviews](https://github.com/kubernetes/community/blob/master/contributors/guide/pull-requests.md#best-practices-for-faster-reviews) by Kubernetes (but skip step 0 and 1)
- - Fork the Home Assistant [git repository](https://github.com/home-assistant/core).
- - Write the code for your device, notification service, sensor, or IoT thing.
- - Ensure tests work.
- - Create a Pull Request against the [**dev**](https://github.com/home-assistant/core/tree/dev) branch of Home Assistant.
+### For New Contributors
 
-Still interested? Then you should take a peek at the [developer documentation](https://developers.home-assistant.io/) to get more details.
+1. **Find your first issue** - Look for issues labeled [good first issue](https://github.com/home-assistant/core/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+2. **Read the guide** - Check [How to get faster PR reviews](https://github.com/kubernetes/community/blob/master/contributors/guide/pull-requests.md#best-practices-for-faster-reviews) by Kubernetes
+3. **Fork the repository** - Fork [home-assistant/core](https://github.com/home-assistant/core)
+4. **Set up your environment** - Follow the [development setup guide](https://developers.home-assistant.io/docs/development_environment/)
+5. **Make your changes** - Write code, fix bugs, or improve documentation
+6. **Run tests** - Ensure all tests pass
+7. **Submit PR** - Create a Pull Request against the [**dev**](https://github.com/home-assistant/core/tree/dev) branch
 
-## Feature suggestions
+### For Non-Developers
 
-If you want to suggest a new feature for Home Assistant (e.g. new integrations), please [start a discussion](https://github.com/orgs/home-assistant/discussions) on GitHub.
+If you're not a developer, you can still contribute:
 
-## Issue Tracker
+- **Documentation** - Help improve [home-assistant.io](https://home-assistant.io/)
+- **Translations** - Help translate Home Assistant at [lokalise.com](https://lokalise.com/)
+- **Report bugs** - Submit issue reports
+- **Community support** - Help others in our [forums](https://community.home-assistant.io/)
 
-If you want to report an issue, please [create an issue](https://github.com/home-assistant/core/issues) on GitHub.
+## Development Resources
+
+| Resource | Link |
+|----------|------|
+| Developer Docs | https://developers.home-assistant.io/ |
+| Code Style Guide | https://developers.home-assistant.io/docs/development_quality_standards/ |
+| API Reference | https://developers.home-assistant.io/docs/api/ |
+| Discord Community | https://discord.gg/c5Dv3BbgJa |
+
+## Feature Suggestions
+
+Want to suggest a new feature? Please [start a discussion](https://github.com/orgs/home-assistant/discussions) on GitHub instead of creating an issue.
+
+## Reporting Issues
+
+Found a bug? [Create an issue](https://github.com/home-assistant/core/issues) with:
+- Clear description of the problem
+- Steps to reproduce
+- Expected behavior
+- Actual behavior
+- Home Assistant version
+- relevant logs
